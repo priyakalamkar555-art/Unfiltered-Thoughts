@@ -1,0 +1,47 @@
+h1{
+    color:black;
+    font-style: italic;
+    font-weight:bold;
+    font-size: 2rem;
+   margin-top: 50px;
+}
+body{
+    background-color:ghostwhite;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+   margin-top: 10px;
+   color: black;
+   border-radius: 10px;
+}
+.content{
+    width:80%;
+    height: 300px;
+    font-size: 2rem;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+  
+}
+.btn{
+    background-color: lightpink;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+h2{
+    color:black;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.5rem;
+}

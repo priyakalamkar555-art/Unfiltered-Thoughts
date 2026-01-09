@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+    <h1>Unfiltered Thoughts</h1>
+    <form action="/blogs" method="post">
+    <input class="title" type="text" placeholder="Enter Title Of Your Blog" name="title"><br>
+    <textarea class="content" name="content" placeholder="Write Your Blog Here..."></textarea><br>
+    <button class="btn" type="Submit">Submit</button>
+    </form>
+    <h2>All Blogs Are Here...</h2>
+    <ul>
+        <% blogs.forEach(blog => { %>
+        <li><%= blog.title %>
+        <a href="/blog/<%= blog.id %>">View</a>
+        </li>
+        <% }) %>
+
+    </ul>
+</body>
+</html>
